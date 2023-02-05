@@ -1,0 +1,13 @@
+.copyright{
+    font-size: 16px;
+    color: ivory;
+    font-family: fantasy;
+    font-style: italic;
+    font-variant: small-caps;
+}
+body{
+    background: cornflowerblue;
+    background-repeat:repeat-y;
+    background-size:auto;
+}
+/*only image, for all page, one for us, */

@@ -1,0 +1,69 @@
+
+/*HEADER O CABECERA*/
+/*Seccion Principal*/
+:root{
+    --rojo: #E50914;
+    --fondo: #141414;
+    --fondo2: #0b2399;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    align-items: center;
+    font-size: large;
+    display: flex;
+    color: rosybrown;  
+    size: 200px 200px; 
+}
+
+.flags{
+    width: auto;
+    margin: auto;
+}
+.logo2{
+    margin-left: 50px;
+    position: absolute;
+}
+.logo3{
+    margin-left: 100px;
+    position: absolute;
+}
+.logo4{
+    margin-left: 150px;
+    position: absolute;
+}
+
+/*navegacion en la cabecera*/
+header{
+    background: var(--fondo);
+    font-family: 'Open Sans', sans-serif;
+    padding: 30px 0;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header nav a {
+    color: #aaa;
+    text-decoration: none;
+    margin-right: 21px;
+}
+
+header nav a:hover,
+header nav a.active{
+    color: rgb(133, 165, 253);
+}
+header .title {
+    align-items: center;
+    display: flex;
+    margin: auto;
+}

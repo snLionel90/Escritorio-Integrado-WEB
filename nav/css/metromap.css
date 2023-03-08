@@ -1,0 +1,12 @@
+a.poo:link, a.poo:visited, a.poo:active
+		{
+		background-color:#999999; border:1px solid black; padding:1px; margin:4px;font-size:16px;font-weight: bold;text-decoration:none;font-family:arial;color:#000000;
+		}
+		a.poo:hover
+		{
+		background-color:#BBBBBB
+		}
+		a.poo2 img
+		{
+		margin:1px;border:none;vertical-align: top;align: center; padding:0px;float: left
+		}
